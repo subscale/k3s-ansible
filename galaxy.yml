@@ -11,6 +11,12 @@ tags:
   - kubernetes
   - k3s
 repository: https://github.com/subscale/k3s-ansible
+dependencies:
+  - ansible.posix
+  - ansible.utils
+  - community.general
+  - kubernetes.core
+
 # build_ignore:
 #   - .github
 #   - '*.tar.gz'
