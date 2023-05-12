@@ -12,10 +12,10 @@ tags:
   - k3s
 repository: https://github.com/subscale/k3s-ansible
 dependencies:
-  ansible.posix: ">=0"
-  ansible.utils: ">=0"
-  community.general: ">=0"
-  kubernetes.core: ">=0"
+  ansible.posix: ">=1.5.2"
+  ansible.utils: ">=2.10.1"
+  community.general: ">=7.0.0"
+  kubernetes.core: ">=2.4.0"
 
 # build_ignore:
 #   - .github
