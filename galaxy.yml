@@ -1,7 +1,7 @@
 ---
 namespace: subscale
 description: Deploy a production ready K3S cluster
-name: k3s-ansible
+name: k3s_ansible
 version: 1.0.0
 readme: README.md
 authors:
